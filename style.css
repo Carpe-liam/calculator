@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+}
+
+#calculator{
+    background: slategray;
+    margin: 25px;
+    padding: 10px;
+    width: 170px;
+}
+
+#display{
+    background: cornsilk;
+    height: 28px;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+
+#row{
+    margin: 4px;
+}
+
+button{
+    background: tomato;
+    padding: 5px;
+    width: 30px;
+    margin: 3px;
+    border-radius: 25%;
+    border: transparent;
+}
+#equals{
+    width: 100px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: rgb(110, 214, 75);
+   }
